@@ -1,0 +1,144 @@
+* {
+   box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+body {
+      color: #b1aeae;
+      background-color: #242323;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            border-bottom: 2px solid #000;
+            padding: 20px 0;
+            position: sticky;
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-weight: bold;
+            font-size: 24px;
+            text-transform: uppercase;
+            background-image: url("LOGO.jpeg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 70px;
+            width: 210px;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #a5a4a4;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        section {
+            padding: 60px 0;
+            border-bottom: 2px solid #000;
+        }
+        .intro-content {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        .intro-img-placeholder {
+            border: 2px solid #000;
+            width: 200px;
+            height: 175px;
+          
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            background-image: url("PHOTO.jpeg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .intro-text h1 {
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        #about {
+            text-align: center;
+        }
+        #about h2 {
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            font-size: 28px;
+        }
+        #about p {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        #contact {
+            text-align: center;
+        }
+        #contact h2 {
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #000;
+            border-radius: 4px;
+        }
+        .form-group textarea {
+            resize: vertical;
+            height: 120px;
+        }
+        .form-group textarea:hover {
+            resize: vertical;
+            height: 130px;
+            transition: ease-out;
+            
+        }
+        .submit-btn {
+            background-color: #7b7a7a;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .submit-btn:hover {
+            background-color: #900404;
+            cursor: pointer;
+        }
+        footer {
+            padding: 20px 0;
+            text-align: center;
+            font-weight: bold;
+            color: azure;
+        }
